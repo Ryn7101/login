@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Bergerak dan Tulisan Romantis</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            padding: 50px;
+        }
+
+        .love {
+            font-size: 3em;
+            color: #ff1493;
+            animation: moveLove 10s infinite;
+        }
+
+        @keyframes moveLove {
+            0% {
+                transform: translateX(0);
+            }
+            50% {
+                transform: translateX(20px);
+            }
+            100% {
+                transform: translateX(0);
+            }
+        }
+
+        .romantic-text {
+            font-size: 1.5em;
+            color: #2f4f4f;
+            line-height: 1.8;
+            max-width: 800px;
+            margin: 20px auto;
+            animation: fadeInText 5s ease-in-out;
+        }
+
+        @keyframes fadeInText {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="love">❤️ Cinta Sejati Selalu Ada ❤️</h1>
+        <p class="romantic-text">
+            Cinta itu bukan hanya tentang kebersamaan, tetapi juga tentang saling memahami dan mendukung satu sama lain, meskipun dalam keadaan terburuk sekalipun. Cinta sejati tidak mengenal waktu, ia terus tumbuh, berkembang, dan memberi kekuatan kepada mereka yang memilikinya. Kamu adalah cinta yang tak ternilai, tempat di mana hatiku selalu pulang.
+        </p>
+    </div>
+</body>
+</html>
